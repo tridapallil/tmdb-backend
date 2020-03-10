@@ -1,15 +1,19 @@
 # About
 This project make an integration with the TMDb's Api, with the objective to do a challenge made by ArcTouch.
 The API is a REST api, responsable to make the request on database and send to the webApp. The project was my first using Typescript, but this was necessary to make a better structure than using just JavaScript.
+As the project doesn't have own database, the TMDB's api was defined as an integration. This way, all the project was delevoped 
+assuming this premise.
 
 # Techs and Frameworks
-- **[Express](https://www.npmjs.com/package/express "express")**
+- **[Express](https://www.npmjs.com/package/express "express")** -> Used to make the server (Simple and high performance server).
 
-- **[Typescript](https://www.npmjs.com/package/typescript "typescript")**
+- **[Typescript](https://www.npmjs.com/package/typescript "typescript")** -> Main Language.
 
-- **[Axios](https://www.npmjs.com/package/axios "axios")**
+- **[Axios](https://www.npmjs.com/package/axios "axios")** -> Used to do requests.
 
-- **[EsLint](https://www.npmjs.com/package/eslint)**
+- **[EsLint](https://www.npmjs.com/package/eslint)** -> Used to make the code clean and standardized.
+
+- **[Cors](https://www.npmjs.com/package/cors)** -> Used to make as middleware.
 
 ## How to run
 
