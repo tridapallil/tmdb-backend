@@ -1,5 +1,5 @@
 # About
-This project make an integration with the TMDb's Api, with the objective to do a challenge made by ArcTouch.
+This project make an integration with the TMDb's Api.
 The API is a REST api, responsable to make the request on database and send to the webApp. The project was my first using Typescript, but this was necessary to make a better structure than using just JavaScript.
 As the project doesn't have own database, the TMDB's api was defined as an integration. This way, all the project was delevoped 
 assuming this premise.
